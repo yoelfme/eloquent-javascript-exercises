@@ -1,4 +1,4 @@
-var ANCESTRY_DATA = require('./ancestry')
+var ANCESTRY_DATA = require('../ancestry')
 var ancestry = JSON.parse(ANCESTRY_DATA)
 
 function filter(array, test) {
